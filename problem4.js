@@ -3,6 +3,7 @@ var fileName= "#docx.doasdcx";
 //write your code here
 var splitFileName = fileName.split(".");
 var fileExtention = splitFileName[1];
+
 var fileFirstName = splitFileName[0];
 var symbol = fileFirstName.split("")[0];
 
