@@ -1,8 +1,8 @@
 /** Problem 04 - (Delete / Store) */
-var fileName= "#docx.doasdcx";
+var fileName= "docx.txt";
 //write your code here
 var splitFileName = fileName.split(".");
-var fileExtention = splitFileName[1];
+var fileExtention = splitFileName.pop();
 
 var fileFirstName = splitFileName[0];
 var symbol = fileFirstName.split("")[0];
