@@ -5,6 +5,8 @@ var land = area / 2;
 console.log(land);
 
 
+
+
 /** Problem -02 ( Cycle or Laptop ) */
 var money = 9999;
 //write your code here
@@ -15,6 +17,8 @@ if(money >= 25000){
 } else {
     console.log("Chocolate");
 }
+
+
 
 
 /** Problem -03 ( Medicine Planner ) */
@@ -28,6 +32,8 @@ for(var day = 1; day <= lastDay; day++){
         console.log(day + " - " + "rest");
     }
 }
+
+
 
 
 /** Problem 04 - (Delete / Store) */
@@ -50,9 +56,23 @@ if(fileExtention === "pdf"){
 }
 
 
+
 /** Problem 05 - ( PH Email Generator )  */
 var student= { name: "monu" , roll: 99,department: "eee"  };
 //write your code here
 var email = student.name + student.roll + "." + student.department + "@ph.ac.bd";
 
 console.log(email);
+
+
+
+
+/** Problem 06 :  (Current Salary )  */
+var experience = 40;
+var startingSalary = 30000;
+//write your code here
+var increasePerYear = 0.05;
+
+var currentSalary = startingSalary * (1 + increasePerYear) ** experience;
+
+console.log(currentSalary.toFixed(2));
